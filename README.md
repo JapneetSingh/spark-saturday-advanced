@@ -9,6 +9,17 @@
 
 * Ensure you use an email address from which you can access e-mails.
 
+```
+spark.hadoop.io.compression.codecs org.apache.hadoop.io.compress.DefaultCodec,is.hail.io.compress.BGzipCodec,org.apache.hadoop.io.compress.GzipCodec
+spark.sql.files.openCostInBytes 1099511627776
+spark.sql.files.maxPartitionBytes 1099511627776
+spark.hadoop.mapreduce.input.fileinputformat.split.minsize 1099511627776
+spark.hadoop.parquet.block.size 1099511627776
+spark.driver.extraClassPath ./hail-2_1_1.jar
+spark.executor.extraClassPath ./hail-2_1_1.jar
+```
+
+
 ### Useful Links
 
 * Hail, the Spark-based genomic analysis software: https://hail.is/
