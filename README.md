@@ -9,14 +9,12 @@
 
 * Ensure you use an email address from which you can access e-mails.
 
-```
-spark.hadoop.io.compression.codecs org.apache.hadoop.io.compress.DefaultCodec,is.hail.io.compress.BGzipCodec,org.apache.hadoop.io.compress.GzipCodec
-spark.sql.files.openCostInBytes 1099511627776
-spark.sql.files.maxPartitionBytes 1099511627776
-spark.hadoop.mapreduce.input.fileinputformat.split.minsize 1099511627776
-spark.hadoop.parquet.block.size 1099511627776
-spark.driver.extraClassPath ./hail-2_1_1.jar
-spark.executor.extraClassPath ./hail-2_1_1.jar
+### Instructions for Importing the Hail Notebook
+
+* Click the "Workspace" button on the lefthand side of your screen.
+* In the tab that opens, click import in the "Workspace" dropdown at the top.
+* Select URL and paste the URL to the student notebook into the input: https://github.com/mptrepanier/spark-saturday-advanced/blob/master/HailTutorial_Student.ipynb
+
 ```
 
 
