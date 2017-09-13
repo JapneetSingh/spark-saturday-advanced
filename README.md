@@ -15,8 +15,6 @@
 * In the tab that opens, click import in the "Workspace" dropdown at the top.
 * Select URL and paste the URL to the student notebook into the input: https://github.com/mptrepanier/spark-saturday-advanced/blob/master/HailTutorial_Student.ipynb
 
-```
-
 
 ### Useful Links
 
